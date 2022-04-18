@@ -1,0 +1,66 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "ValueUpLive2D_20211114.moc3",
+		"Textures": [
+			"ValueUpLive2D_20211114.1024/texture_00.png"
+		],
+		"Physics": "ValueUpLive2D_20211114.physics3.json",
+		"Motions": {
+			"Tap1": [
+				{
+					"File": "motions/guruguru_8_15ver.motion3.json"
+				}
+			],
+			"Tap2": [
+				{
+					"File": "motions/kunojime.motion3.json"
+				}
+			],
+			"Tap3": [
+				{
+					"File": "motions/sleepy.motion3.json"
+				}
+			],
+			"": [
+				{
+					"File": "motions/sleepy.motion3_Unity.motion3.json"
+				}
+			],
+			"Idle": [
+				{
+					"File": "motions/taiki.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitArea",
+			"Name": ""
+		},
+		{
+			"Id": "HitArea2",
+			"Name": ""
+		},
+		{
+			"Id": "HitArea3",
+			"Name": ""
+		}
+	]
+}

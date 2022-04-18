@@ -1,0 +1,16 @@
+[[models]]
+name = "ValueUpLive2D_20211114"
+billboarding = true
+scale = 4
+[models.position]
+x = 0
+y = 0
+z = 0
+[models.rotation]
+x = 0
+y = 0
+z = 0
+[models.hitInfo]
+HitArea = "Tap1"
+HitArea2 = "Tap2"
+HitArea3 = "Tap3"

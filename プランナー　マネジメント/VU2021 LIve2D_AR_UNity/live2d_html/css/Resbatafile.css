@@ -1,0 +1,150 @@
+* { 
+    margin: 0;
+    padding: 0; 
+  }
+/* 共通*/
+body{
+    background-repeat: repeat;
+    background-size: auto;
+    width: 100%;
+}
+
+/*1280px〜　PC*/
+@media screen and (min-width:960px) {
+    #video-area{
+        position: fixed;
+        z-index: -1;/*最背面に設定*/
+        top: 0;
+        right:0;
+        left:0;
+        bottom:0;
+        overflow: hidden;
+    }
+    
+    #video {
+        /*天地中央配置*/
+        position: absolute;
+        z-index: -1;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /*縦横幅指定*/
+        width: 177.77777778vh; /* 16:9 の幅→16 ÷ 9＝ 177.77% */
+        height: 56.25vw; /* 16:9の幅 → 9 ÷ 16 = 56.25% */
+        min-height: 100%;
+        min-width: 100%;
+    }
+    
+    .logo img{
+        margin: 0px;
+        width: 174px;
+        height: auto;
+       }
+    .logo{
+        margin-top: 21px;
+        margin-right: 1698px;
+        
+        margin-left: 48px;
+       padding-bottom: 40px;
+    }
+    #image{
+        display:flex;
+        text-align: center;
+        padding-left: 100px;
+    }
+    #img img{
+        size: 80%;
+    }
+    ul,
+    li{
+        
+        margin-top: 30px;
+        margin-bottom: auto;
+        padding-left: 50px;
+        list-style: none;
+    }
+     
+    #marker{
+        
+        border: solid medium lightslategray;
+    }
+    footer{
+        background-color: darkgrey;
+        background-size: cover;
+        margin-top: 　300px;
+        height: 61px;
+    }
+    footer p{
+    text-align: right;
+    padding: 13px;
+    
+    }
+}
+
+@media screen and (max-width:960px) {
+    #video-area{
+        position: fixed;
+        z-index: -1;/*最背面に設定*/
+        top: 0;
+        right:0;
+        left:0;
+        bottom:0;
+        overflow: hidden;
+    }
+    
+    #video {
+        /*天地中央配置*/
+        position: absolute;
+        z-index: -1;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /*縦横幅指定*/
+        
+        transform: rotateZ ( -90deg );
+    }
+    
+    .logo img{
+        margin: 0px;
+        width: 174px;
+        height: auto;
+       }
+    .logo{
+        margin-top: 21px;
+        margin-right: 1698px;
+        
+        margin-left: 48px;
+       padding-bottom: 40px;
+    }
+    
+    
+    ul,
+    li{
+        
+        margin-top: 30px;
+        margin-bottom: auto;
+        
+        list-style: none;
+    }
+     
+    #image{
+        
+        width: 320;
+        padding-left: 20px;
+        text-align: center;
+    }
+
+    
+    
+    footer{
+        background-color: darkgrey;
+        background-size: cover;
+        margin-top: 300px;
+        height: 51px;
+    }
+    footer p{
+    text-align: left;
+    padding: 13px;
+    
+    }
+}
